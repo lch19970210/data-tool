@@ -1,4 +1,4 @@
-package com.hangzhou.file;
+package com.hangzhou.tool.file;
 
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;

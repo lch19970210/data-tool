@@ -1,9 +1,6 @@
-package com.hangzhou.test;
+package com.hangzhou.tool.test;
 
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 

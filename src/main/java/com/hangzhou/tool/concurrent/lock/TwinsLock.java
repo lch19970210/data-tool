@@ -1,6 +1,4 @@
-package com.hangzhou.concurrent.lock;
-
-import org.springframework.aop.ThrowsAdvice;
+package com.hangzhou.tool.concurrent.lock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;

@@ -1,4 +1,4 @@
-package com.hangzhou.test;
+package com.hangzhou.tool.test;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

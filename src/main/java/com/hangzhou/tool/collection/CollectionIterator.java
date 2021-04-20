@@ -1,4 +1,4 @@
-package com.hangzhou.collection;
+package com.hangzhou.tool.collection;
 
 import java.util.HashSet;
 import java.util.Iterator;

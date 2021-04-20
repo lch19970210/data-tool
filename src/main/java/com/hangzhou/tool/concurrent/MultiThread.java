@@ -1,4 +1,4 @@
-package com.hangzhou.concurrent;
+package com.hangzhou.tool.concurrent;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

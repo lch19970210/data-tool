@@ -1,4 +1,4 @@
-package com.hangzhou.properties;
+package com.hangzhou.tool.properties;
 
 import java.io.IOException;
 import java.io.InputStream;

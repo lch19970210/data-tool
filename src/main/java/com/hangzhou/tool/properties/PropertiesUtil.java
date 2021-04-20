@@ -1,4 +1,4 @@
-package com.hangzhou.properties;
+package com.hangzhou.tool.properties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

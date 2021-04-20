@@ -1,4 +1,4 @@
-package com.hangzhou.concurrent;
+package com.hangzhou.tool.concurrent;
 
 import java.util.concurrent.TimeUnit;
 
