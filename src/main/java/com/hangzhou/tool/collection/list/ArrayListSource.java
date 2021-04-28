@@ -20,5 +20,6 @@ public class ArrayListSource {
         arrayList.add(200);
         arrayList.add(null);
         arrayList.stream().forEach(item -> System.out.println(item));
+
     }
 }

@@ -1,6 +1,7 @@
 package com.hangzhou.tool.collection.set;
 
 import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 阅读 HashSet 源码
@@ -14,7 +15,7 @@ public class HashSetDemo {
 //
 //        Node[] nodeTable = new Node[16];
 
-        HashSet hashSet = new HashSet();
+        Set hashSet = new HashSet();
         hashSet.add("java");
         hashSet.add(null);
         hashSet.add("java");
