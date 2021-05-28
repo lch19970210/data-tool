@@ -9,13 +9,11 @@ import java.util.List;
  */
 public class test {
     public static void main(String[] args) {
-        String[] str = {
-            "a",
-            "b",
-            "c"
-        };
-        List<String> strs = Arrays.asList(str);
-        System.out.println(strs.remove("b"));
+        int i = 1;
+        int a = i++;
+        int j = 1;
+        int b = ++j;
+        System.out.println("i++:" + a + ",++i:" + b);
 
     }
 }

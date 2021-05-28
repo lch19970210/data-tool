@@ -1,5 +1,6 @@
 package com.hangzhou.tool.collection;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -23,5 +24,7 @@ public class CollectionIterator {
         // 迭代器遍历后需要重置
         Object next = iterator.next();
         System.out.println(next);
+
+        Collections.sort(null);
     }
 }
