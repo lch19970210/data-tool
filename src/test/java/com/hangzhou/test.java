@@ -1,5 +1,7 @@
 package com.hangzhou;
 
+import com.hangzhou.tool.reflect.Factory;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -9,11 +11,20 @@ import java.util.List;
  */
 public class test {
     public static void main(String[] args) {
-        int i = 1;
-        int a = i++;
-        int j = 1;
-        int b = ++j;
-        System.out.println("i++:" + a + ",++i:" + b);
+        Son son = new Son();
+        son.father();
 
+    }
+}
+
+class Father {
+    public void father() {
+        System.out.println("father");
+    }
+}
+
+class Son extends Father {
+    public void son() {
+        System.out.println("son");
     }
 }
